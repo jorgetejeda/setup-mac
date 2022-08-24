@@ -1,0 +1,16 @@
+If you want install all of them with one line command.
+1. copy all them in a txt file
+2. on your terminal run
+  xargs brew install < filename.txt
+3. it will run 'brew install' for every line
+
+iterm2
+rectangle 
+app-cleaner
+alfred
+mysql
+visual-studio-code
+insomnia
+discord
+firefox-developer-edition
+keka
