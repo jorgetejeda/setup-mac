@@ -2,21 +2,23 @@
 
 # Table content
 
-1. [Setting Finder](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-2. [Setting Dock & Menu Bar](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-3. [Installing Homebrew](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-4. [Installing Apps](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-5. [Setting iTerm2](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-6. [Setting Alfred](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-7. [Setting Visual Studio Code](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    1. [Change theme](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    2. [Font](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    3. [Cleaning bottom bar](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-8. [Installing Oh-my-zsh](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    1. [Download theme](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    2. [Setting Oh-my-zsh](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
-    3. [Alias](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+1. [Setting Finder](#item1)
+2. [Setting Dock & Menu Bar](#item2)
+3. [Installing Homebrew](#item3)
+4. [Installing Apps](#item4)
+5. [Setting iTerm2](#item5)
+6. [Setting Alfred](#item6)
+7. [Setting Visual Studio Code](#item7)
+    1. [Change theme](#item7-1)
+    2. [Font](#item7-2)
+    3. [Cleaning bottom bar](#item7-3)
+8. [Installing Oh-my-zsh](#item8)
+    1. [Plugin](#item8-1)
+    2. [Download theme](#item8-2)
+    3. [Setting Oh-my-zsh](#item8-3)
+    4. [Alias](#item8-4)
 
+<a name="item1"></a>
 # Setting Finder
 
 This is up to you. Open **Finder** and press `cmd + ,` to open the preferences, in the first tab **General** add the following settings to remove unnecessary information from the **Desktop**. At the bottom where it says **New Finder windows show** your main file, it will always open the Finder in your home directory.
@@ -37,6 +39,7 @@ Close **Finder Preferences** and go to **View Option** on top ****and add the fo
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%203.png)
 
+<a name="item2"></a>
 # Setting Dock & Menu Bar
 
 Add the following settings. I like to keep my Desktop clean that why im hiding the top and bottom bar.
@@ -54,6 +57,7 @@ And on **Battery option**, let’s turn on the option **Show in Menu Bar** and *
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%205.png)
 
+<a name="item3"></a>
 # Installing Homebrew
 
 Open terminal and paste, this also will install **xCode**.
@@ -82,6 +86,7 @@ In case you don’t have zsh as default , copy and paste on your terminal. Make 
 chsh -s /bin/zsh
 ```
 
+<a name="item4"></a>
 # Installing Apps
 
 | iterm2 | It’s a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. |
@@ -123,6 +128,7 @@ This will run `brew install` for every line on your txt.
 
 now we can close our terminal and open **iTerm2.**
 
+<a name="item5"></a>
 # Setting iTerm2
 
 After open **iTerm2,** let’s press `cmd + ,` to open preference window.
@@ -147,6 +153,7 @@ If we want to move with tab on our terminal and avoid **]D]D,** let’s click on
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%2011.png)
 
+<a name="item6"></a>
 # Setting Alfred
 
 Press option + space and it show **Alfred search bar,** write **Alfred** and click on the option **Show alfred preferences.**
@@ -178,6 +185,7 @@ After this let’s go back into our **Alfred Preferences** and In our first opti
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%2015.png)
 
+<a name="item7"></a>
 # Setting VSCODE
 
 After install **Visual Studio Code** with **Homebrew** let’s open Alfred and write Visual Studio Code, if you already have a **gist**, just install the **[Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)** and log in with your **Github account.**
@@ -213,6 +221,7 @@ Extensions that i use:
 | TODO HIGHLIGHT | Sometimes you forget to review the TODOs you've added while coding before you publish the code to production. So I've been wanting an extension for a long time that highlights them and reminds me that there are notes or things not done yet. |
 | Typescript React hooks tools | A tools who provide a series of refactors about react hooks. |
 
+<a name="item7-1"></a>
 ## Change Theme
 
 Press `cmd + shift + p` it will open an input on middle-top on your visual studio code and write. Select the first option.
@@ -227,18 +236,21 @@ And for the VSCODE Icons let’s press again `cmd + shift + p` and write.
 
 Select whatever you want, that up to you, i use **Dobri Next -A02- Official Icons.**
 
+<a name="item7-2"></a>
 ## Add Font
 
 I prefer to use **Operator Mono** in this repo there is a file called **[Operator mono](Operator%20Mono)** download it and install on your computer, then go back to **Visual Studio Code,** on the top bar click on the option **code>preferences>settings**, it will open a new tab with a search. On the search write **Font** it will show font’s options, look for the option and add the font. Just add **Operator Mono** if you don’t have any other font.
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%2018.png)
 
+<a name="item7-3"></a>
 ## Cleaning bottom bar VSCODE
 
 I don’t like to see a bunch of message on bottom bar, so, go to the bottom bar and right click and uncheck the next options. This will remove unnecessary icons on your bottom bar.
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%2019.png)
 
+<a name="item8"></a>
 # Installing Oh-my-zsh
 
 [Oh My Zsh](https://ohmyz.sh) is a delightful, open source, community-driven framework for managing your Zsh configuration.
@@ -249,6 +261,7 @@ On your terminal paste, this gonna create .zsh file.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+<a name="item8-1"></a>
 ## Installing plugins for zsh
 
 [zsh-suggestion](https://github.com/zsh-users/zsh-autosuggestions) It suggests commands as you type based on history and completions.
@@ -257,10 +270,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+<a name="item8-2"></a>
 ## Download Oh-my-zsh theme
 
 Download **[jtejeda.zsh-theme](jtejeda.zsh-theme)** we already have this in the repository, then in our terminal let’s write `cd ~/.oh-my-zsh/themes && code .` and drop the theme we already downloaded.
 
+<a name="item8-3"></a>
 ## Setting Oh-my-zsh
 
 Now on the terminal write `code **~/.zshrc**` it will open visual studio code with zsh file.
@@ -278,6 +293,7 @@ plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 ```
 
+<a name="item8-4"></a>
 ## Alias
 
 These are the aliases that i use, this is my personal selection
