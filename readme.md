@@ -212,7 +212,7 @@ Select whatever you want, that up to you, i use **Dobri Next -A02- Official Icon
 
 ## Adding New Font
 
-I prefer to use **Operator Mono** in this repo there is a file called ![**Operator mono**](Operator%20Mono) download it and install on your computer, then go back to **Visual Studio Code,** on the top bar click on the option **code>preferences>settings**, it will open a new tab with a search. On the search write **Font** it will show font’s options, look for the option and add the font. Just add **Operator Mono** if you don’t have any other font.
+I prefer to use **Operator Mono** in this repo there is a file called **[Operator mono](Operator%20Mono) download it and install on your computer, then go back to **Visual Studio Code,** on the top bar click on the option **code>preferences>settings**, it will open a new tab with a search. On the search write **Font** it will show font’s options, look for the option and add the font. Just add **Operator Mono** if you don’t have any other font.
 
 ![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%2018.png)
 
@@ -242,7 +242,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ## Setting Oh-my-zsh theme
 
-Download ![**jtejeda.zsh-theme**](jtejeda.zsh-theme) we already have this in the repository, then in our terminal let’s write `cd ~/.oh-my-zsh/themes && code .` and drop the theme we already downloaded.
+Download **[jtejeda.zsh-theme](jtejeda.zsh-theme) we already have this in the repository, then in our terminal let’s write `cd ~/.oh-my-zsh/themes && code .` and drop the theme we already downloaded.
 
 ## Setting Oh-my-zsh
 
