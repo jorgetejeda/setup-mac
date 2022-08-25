@@ -1,5 +1,22 @@
 # Setup MacOS
 
+# Table content
+
+1. [Setting Finder](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+2. [Setting Dock & Menu Bar](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+3. [Installing Homebrew](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+4. [Installing Apps](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+5. [Setting iTerm2](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+6. [Setting Alfred](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+7. [Setting Visual Studio Code](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    1. [Change theme](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    2. [Font](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    3. [Cleaning bottom bar](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+8. [Installing Oh-my-zsh](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    1. [Download theme](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    2. [Setting Oh-my-zsh](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+    3. [Alias](https://www.notion.so/Setup-MacOS-25a24dbb312a4724a0055fb38561f262)
+
 # Setting Finder
 
 This is up to you. Open **Finder** and press `cmd + ,` to open the preferences, in the first tab **General** add the following settings to remove unnecessary information from the **Desktop**. At the bottom where it says **New Finder windows show** your main file, it will always open the Finder in your home directory.
@@ -196,7 +213,7 @@ Extensions that i use:
 | TODO HIGHLIGHT | Sometimes you forget to review the TODOs you've added while coding before you publish the code to production. So I've been wanting an extension for a long time that highlights them and reminds me that there are notes or things not done yet. |
 | Typescript React hooks tools | A tools who provide a series of refactors about react hooks. |
 
-## Let change the theme
+## Change Theme
 
 Press `cmd + shift + p` it will open an input on middle-top on your visual studio code and write. Select the first option.
 
@@ -210,7 +227,7 @@ And for the VSCODE Icons let’s press again `cmd + shift + p` and write.
 
 Select whatever you want, that up to you, i use **Dobri Next -A02- Official Icons.**
 
-## Adding New Font
+## Add Font
 
 I prefer to use **Operator Mono** in this repo there is a file called **[Operator mono](Operator%20Mono)** download it and install on your computer, then go back to **Visual Studio Code,** on the top bar click on the option **code>preferences>settings**, it will open a new tab with a search. On the search write **Font** it will show font’s options, look for the option and add the font. Just add **Operator Mono** if you don’t have any other font.
 
@@ -240,7 +257,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-## Setting Oh-my-zsh theme
+## Download Oh-my-zsh theme
 
 Download **[jtejeda.zsh-theme](jtejeda.zsh-theme)** we already have this in the repository, then in our terminal let’s write `cd ~/.oh-my-zsh/themes && code .` and drop the theme we already downloaded.
 
