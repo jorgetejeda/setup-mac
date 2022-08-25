@@ -1,4 +1,0 @@
-git
-node
-brew install nvm
-nvm install stable

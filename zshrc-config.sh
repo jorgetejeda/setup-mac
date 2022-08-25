@@ -31,6 +31,7 @@ iterm2_print_user_vars() {
 # git
 alias gi='git init'
 alias gb='git branch'
+alias gbd='git branch -D'
 alias giy='git init -y'
 alias gaa='git add .'
 alias gss='git status -s'
@@ -38,11 +39,25 @@ alias gcm='git commit -m'
 alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gp='git pull'
-alias gpsh='git push'
+alias gpsh='git push origin head'
 
 # Files
 alias o='open .'
 alias ophp='open /Applications/MAMP/htdocs'
+alias desktop='cd ~/Desktop'
+alias themes='cd ~/.oh-my-zsh/themes'
+
+# show - hide files
+alias showFiles='defaults write com.apple.Finder AppleShowAllFiles true && killall Finder'
+alias hideFiles='defaults write com.apple.Finder AppleShowAllFiles false && killall Finder'
+alias hideDesktop='defaults write com.apple.finder CreateDesktop false; killall Finder'
+alias showDesktop='defaults write com.apple.finder CreateDesktop true; killall Finder'
+
+# Npm
+alias start='npm start'
+
+#React native
+alias reactNative='create-react-native-app'
 
 
 
