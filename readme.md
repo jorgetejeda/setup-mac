@@ -1,5 +1,3 @@
-# Setup MacOS
-
 # Table content
 
 1. [Setting Finder](#item1)
