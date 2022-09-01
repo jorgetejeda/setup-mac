@@ -46,6 +46,10 @@ alias o='open .'
 alias ophp='open /Applications/MAMP/htdocs'
 alias desktop='cd ~/Desktop'
 alias themes='cd ~/.oh-my-zsh/themes'
+# It will create a file using the name of directory you are in
+# EX: cd ~/myFile && createfile html
+# Res: myFile.html
+alias createfile='f() { touch "${PWD##*/}.$1" };f'
 
 # show - hide files
 alias showFiles='defaults write com.apple.Finder AppleShowAllFiles true && killall Finder'
