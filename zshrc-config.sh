@@ -27,6 +27,11 @@ iterm2_print_user_vars() {
 # ------
 # Alias
 # ------
+function show_git_aliases() {
+  echo "Alias de Git en .zshrc:"
+  echo "------------------------"
+  grep -E "^alias g" ~/.zshrc | grep -vE "git=|git |git$" | sed "s/alias //" | sort
+}
 
 # git
 alias gi='git init'
@@ -63,7 +68,17 @@ alias start='npm start'
 #React native
 alias reactNative='create-react-native-app'
 
+alias configHost='code /etc/hosts'
+# SSH
+alias ssh='cd ~/.ssh/'
 
+# OPEN JAVA VERSION FILES
+alias javaVersions='cd /Library/Java/JavaVirtualMachines'
+
+# killpid <pid>
+kill_pid(){
+  "kill -9 $(lsof -i:${1})"
+}
 
 # in terminal run source ~/.zshrc
 
