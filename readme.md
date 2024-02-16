@@ -33,10 +33,6 @@ In the last tab
 
 The last option **When performing a search** let’s select **Search the current folder** because i hate when i try to find something in the same directory and when i click on search input this throw me results from entire computer.
 
-Close **Finder Preferences** and go to **View Option** on top ****and add the following settings.
-
-![Untitled](Setup%20MacOS%206f47239e181445d6b954a9744523f9b4/Untitled%203.png)
-
 <a name="item2"></a>
 # Setting Dock & Menu Bar
 
@@ -103,17 +99,17 @@ Create apps.txt with this and save on your Desktop.
 
 ```
 iterm2
-rectangle 
-app-cleaner
 alfred
 mysql
 visual-studio-code
 insomnia
-discord
 firefox-developer-edition
 keka
 git
-node
+nvm
+--cask google-chrome
+--cask postman
+--cask microsoft-teams
 ```
 
 Then through your terminal go to your Desktop and type.
@@ -125,6 +121,14 @@ xargs brew install < apps.txt
 This will run `brew install` for every line on your txt.
 
 now we can close our terminal and open **iTerm2.**
+
+# Setting NVM after installed with homebrew into ZSH
+If we type "nvm" in our terminal, it will throw an error saying "zsh: command not found." Let's open our ~/.zshrc file and add the following line with the same format.
+```bash
+export NVM_DIR="$HOME/.nvm" 
+. "/opt/homebrew/opt/nvm/nvm.sh"
+```
+Now zsh know about NVM
 
 <a name="item5"></a>
 # Setting iTerm2
