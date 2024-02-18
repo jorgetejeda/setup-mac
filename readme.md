@@ -305,6 +305,11 @@ These are the aliases that i use, this is my personal selection
 # Alias
 # ------
 
+# zsh
+alias zshconfig='nano ~/.zshrc' 
+alias execzsh='source ~/.zshrc'
+alias themes='cd ~/.oh-my-zsh/themes'
+
 # git
 alias gi='git init'
 alias gb='git branch'
@@ -322,7 +327,6 @@ alias gpsh='git push origin head'
 alias o='open .'
 alias ophp='open /Applications/MAMP/htdocs'
 alias desktop='cd ~/Desktop'
-alias themes='cd ~/.oh-my-zsh/themes'
 
 # show - hide files
 alias showFiles='defaults write com.apple.Finder AppleShowAllFiles true && killall Finder'
@@ -330,11 +334,30 @@ alias hideFiles='defaults write com.apple.Finder AppleShowAllFiles false && kill
 alias hideDesktop='defaults write com.apple.finder CreateDesktop false; killall Finder'
 alias showDesktop='defaults write com.apple.finder CreateDesktop true; killall Finder'
 
-# Npm
-alias start='npm start'
+# Mysql
+alias mysqlConnection='mysql -u root -p'
+alias mysqlStart='mysql.server start'
+alias mysqlStop='mysql.server stop'
+alias mysqlRestart='mysql.server restart'
+alias mysqlStatus='mysql.server status'
+alias mysqlPort='mysqladmin variables | grep port'
 
-#React native
-alias reactNative='create-react-native-app'
+# vpn
+alias configHost='code /etc/hosts'
+
+# SSH
+alias ssh='cd ~/.ssh/'
+
+# OPEN JAVA VERSION FILES
+alias javaVersions='cd /Library/Java/JavaVirtualMachines'
+
+# FUNCTION TO SHOW ALIASES
+alias showAliases='cat ~/.zshrc | grep alias'
+
+# killpid <pid>
+kill_pid(){
+  "kill -9 $(lsof -i:${1})"
+}
 ```
 
 The first block is for **git**
